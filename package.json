@@ -9,7 +9,8 @@
     "watch": "rollup -w -c lib/rollup-config.js",
     "test": "node_modules/.bin/karma start karma.conf.js",
     "build-css": "./bin/build-css",
-    "watch-css": "./bin/watch-css"
+    "watch-css": "./bin/watch-css",
+    "cypress:open": "cypress open"
   },
   "keywords": [],
   "author": "",
